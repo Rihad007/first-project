@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+/* header start*/
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    background-color: #262626;
+    height: 50px;
+    line-height: 50px;
+    width: 170px;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li:hover{
+    background-color: aquamarine;
+    transition: all ease-in 0.5s;
+}
+
+.navbar ul ul{
+    display: none;
+}
+
+.navbar ul li:hover >ul{
+    display: block;
+}
+
+/*header end*/
+
+
+
+
+.form1{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+
+}
+
+.form1 input{
+    padding: 5px 50px;
+    border-color: aqua;
+    border-radius: 50px;
+}
+    
+.form1 .rtr{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*form start*/
+
+
+
+
+
+
+/*form end*/
+
+
+
+
+/* footer start*/
+
+footer{
+    width: 100%;
+    background-color: #262626;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+.icon img{
+    height: 40px;
+    position: relative;
+    top: -30px;
+    padding: 5px;
+}
+
+.copy {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+/*footer end*/
